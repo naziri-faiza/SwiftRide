@@ -1,0 +1,23 @@
+{
+  "name": "swiftride-backend",
+  "version": "1.0.0",
+  "description": "SwiftRide Express REST API and Razorpay Payment Integration",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node tests/realtime.test.js && node tests/features.test.js",
+    "test:features": "node tests/features.test.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "razorpay": "^2.9.5",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  }
+}

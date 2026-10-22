@@ -1,0 +1,105 @@
+[
+  {
+    "referenceId": "SR-357323",
+    "riderId": "cust-uuid-alpha",
+    "riderName": "Verified Rider",
+    "driverId": null,
+    "rating": 5,
+    "comment": "Driver was very polite, car was squeaky clean!",
+    "tags": [
+      "Safe & Smooth Driving",
+      "Clean & Sanitized Cab"
+    ],
+    "createdAt": "2026-10-17T21:25:10.101Z"
+  },
+  {
+    "referenceId": "SR-584053",
+    "riderId": "cust-uuid-alpha",
+    "riderName": "Verified Rider",
+    "driverId": null,
+    "rating": 5,
+    "comment": "Driver was very polite, car was squeaky clean!",
+    "tags": [
+      "Safe & Smooth Driving",
+      "Clean & Sanitized Cab"
+    ],
+    "createdAt": "2026-10-17T21:25:35.668Z"
+  },
+  {
+    "referenceId": "SR-574443",
+    "riderId": "cust-uuid-alpha",
+    "riderName": "Verified Rider",
+    "driverId": null,
+    "rating": 5,
+    "comment": "Driver was very polite, car was squeaky clean!",
+    "tags": [
+      "Safe & Smooth Driving",
+      "Clean & Sanitized Cab"
+    ],
+    "createdAt": "2026-10-17T21:26:43.127Z"
+  },
+  {
+    "referenceId": "SR-401429",
+    "riderId": "1c4c27ec-4927-4b43-9d9e-d401266bd3c9",
+    "riderName": "Rohan Varma",
+    "driverId": "d1111111-1111-1111-1111-111111111111",
+    "rating": 5,
+    "comment": "Exceptional driving and very clean car!",
+    "tags": [
+      "Safe & Smooth Driving"
+    ],
+    "createdAt": "2026-10-17T21:33:51.921Z"
+  },
+  {
+    "referenceId": "SR-618545",
+    "riderId": "e7f2ea34-ca3f-4d07-b005-9c33dffccd61",
+    "riderName": "Ahmed",
+    "driverId": "d1111111-1111-1111-1111-111111111111",
+    "rating": 5,
+    "comment": "",
+    "tags": [
+      "Punctual Pickup",
+      "Great AC & Music"
+    ],
+    "createdAt": "2026-10-19T20:53:50.209Z"
+  },
+  {
+    "referenceId": "SR-307126",
+    "riderId": "cust-uuid-alpha",
+    "riderName": "Verified Rider",
+    "driverId": null,
+    "rating": 5,
+    "comment": "Driver was very polite, car was squeaky clean!",
+    "tags": [
+      "Safe & Smooth Driving",
+      "Clean & Sanitized Cab"
+    ],
+    "createdAt": "2026-10-19T21:44:12.675Z"
+  },
+  {
+    "referenceId": "SR-290633",
+    "riderId": "cust-uuid-alpha",
+    "riderName": "Verified Rider",
+    "driverId": null,
+    "rating": 5,
+    "comment": "Driver was very polite, car was squeaky clean!",
+    "tags": [
+      "Safe & Smooth Driving",
+      "Clean & Sanitized Cab"
+    ],
+    "createdAt": "2026-10-19T21:45:06.361Z"
+  },
+  {
+    "referenceId": "SR-382170",
+    "riderId": "cust-uuid-alpha",
+    "riderName": "Verified Rider",
+    "driverId": null,
+    "rating": 5,
+    "comment": "Driver was very polite, car was squeaky clean!",
+    "tags": [
+      "Safe & Smooth Driving",
+      "Clean & Sanitized Cab"
+    ],
+    "createdAt": "2026-10-21T12:37:04.224Z"
+  }
+]

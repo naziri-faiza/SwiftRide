@@ -1,0 +1,57 @@
+[
+  {
+    "id": "c6f3dd3d-9ea0-45a9-a01d-e5293148fa11",
+    "email": "aarav.sharma@example.com",
+    "fullName": "Aarav Sharma",
+    "phone": "+91 98765 11111",
+    "role": "rider",
+    "passwordHash": "7f3e133cad8d72d4f9b386cb73c29b551ee7279a81921de400b376b0c6f258ce8184e9c74cbf1ed9c901fc1dd419f9b25fc89c93da20c2e9a73df70ac8a56863",
+    "passwordSalt": "131292c2b1647eeb3ba0f41562e9d5c6",
+    "createdAt": "2026-10-14T20:46:27.742Z",
+    "updatedAt": "2026-10-14T20:46:27.742Z"
+  },
+  {
+    "id": "22e1b421-fb6f-4595-9993-b095af2df4ee",
+    "email": "priya.patel@example.com",
+    "fullName": "Priya Patel",
+    "phone": "+91 98765 22222",
+    "role": "rider",
+    "passwordHash": "ad5ca5107c90ebfeb8b8ccfdd76e4164b0e2e3664d4006f457651dd83229ac4cc4a61e192d397c819d3dbfecef3f82059b3793b27ea4fa60d1e7b8f9965a4de6",
+    "passwordSalt": "cbef6f5ec87c0dac9da25f52f31d3693",
+    "createdAt": "2026-10-14T20:46:27.959Z",
+    "updatedAt": "2026-10-14T20:46:27.959Z"
+  },
+  {
+    "id": "1c4c27ec-4927-4b43-9d9e-d401266bd3c9",
+    "email": "rohan.varma@swiftride.io",
+    "fullName": "Rohan Varma",
+    "phone": "+91 98765 33333",
+    "role": "rider",
+    "passwordHash": "228fedcb757b90ef654466594a84295c7adba726bd36fd939954dc6aad67fd5fe8ca2631c38eadefc71fc3477da50f424a68339f8399a4564f8ab0b68ae2af97",
+    "passwordSalt": "56d3bc1e08fecc855e73b5eb4f68ef3c",
+    "createdAt": "2026-10-14T20:55:19.333Z",
+    "updatedAt": "2026-10-14T20:55:19.333Z"
+  },
+  {
+    "id": "7dfee959-6081-4923-94b1-fe0e69b25a32",
+    "email": "ali@gmail.com",
+    "fullName": "Ali Imran",
+    "phone": "",
+    "role": "rider",
+    "passwordHash": "0fc7f20ac8fc882c8948f4f388a19f09333a95233eca976a3eb7bce60f4c791e8578cd8a8752db26992d86c5f00c8008c78e3266e0ef0231bbb38220c47ca9bc",
+    "passwordSalt": "847db2ba78a626061380aa5872963692",
+    "createdAt": "2026-10-14T21:14:54.405Z",
+    "updatedAt": "2026-10-14T21:16:12.951Z"
+  },
+  {
+    "id": "e7f2ea34-ca3f-4d07-b005-9c33dffccd61",
+    "email": "nazirifaiza24@gmail.com",
+    "fullName": "Ahmed",
+    "phone": "8983257332",
+    "role": "rider",
+    "passwordHash": "dea9a11be43529869ceb68a428263707b73c5acccc42fce05834447b2af30690c3fb99c7f8325f7d6020890837cfa4190583f2f13f3b50e5521775a9de349acf",
+    "passwordSalt": "b4f96b03411ef7b9931a20106a5b03dc",
+    "createdAt": "2026-10-19T20:13:46.830Z",
+    "updatedAt": "2026-10-19T20:13:46.830Z"
+  }
+]

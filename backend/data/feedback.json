@@ -1,0 +1,57 @@
+[
+  {
+    "id": "FB-228685",
+    "ticketId": "FB-228685",
+    "userId": "cust-uuid-alpha",
+    "category": "FEATURE_REQUEST",
+    "rating": 5,
+    "subject": "Add scheduled rides feature",
+    "message": "It would be amazing to book a ride for tomorrow 9 AM in advance!",
+    "contactEmail": "alpha@example.com",
+    "createdAt": "2026-10-17T21:26:43.136Z"
+  },
+  {
+    "id": "FB-746181",
+    "ticketId": "FB-746181",
+    "userId": "1c4c27ec-4927-4b43-9d9e-d401266bd3c9",
+    "category": "FEATURE_REQUEST",
+    "rating": 5,
+    "subject": "Instant scheduled rides",
+    "message": "Please allow scheduling cab bookings 24 hours in advance.",
+    "contactEmail": "rohan.varma@swiftride.io",
+    "createdAt": "2026-10-17T21:30:06.572Z"
+  },
+  {
+    "id": "FB-340104",
+    "ticketId": "FB-340104",
+    "userId": "cust-uuid-alpha",
+    "category": "FEATURE_REQUEST",
+    "rating": 5,
+    "subject": "Add scheduled rides feature",
+    "message": "It would be amazing to book a ride for tomorrow 9 AM in advance!",
+    "contactEmail": "alpha@example.com",
+    "createdAt": "2026-10-19T21:44:12.686Z"
+  },
+  {
+    "id": "FB-217817",
+    "ticketId": "FB-217817",
+    "userId": "cust-uuid-alpha",
+    "category": "FEATURE_REQUEST",
+    "rating": 5,
+    "subject": "Add scheduled rides feature",
+    "message": "It would be amazing to book a ride for tomorrow 9 AM in advance!",
+    "contactEmail": "alpha@example.com",
+    "createdAt": "2026-10-19T21:45:06.371Z"
+  },
+  {
+    "id": "FB-249625",
+    "ticketId": "FB-249625",
+    "userId": "cust-uuid-alpha",
+    "category": "FEATURE_REQUEST",
+    "rating": 5,
+    "subject": "Add scheduled rides feature",
+    "message": "It would be amazing to book a ride for tomorrow 9 AM in advance!",
+    "contactEmail": "alpha@example.com",
+    "createdAt": "2026-10-21T12:37:04.235Z"
+  }
+]
