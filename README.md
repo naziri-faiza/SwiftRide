@@ -113,54 +113,32 @@ SwiftRide incorporates design principles established by modern mobility platform
 ## 5. System Architecture and Workflow
 
 ### Architecture Diagram
-```mermaid
-graph TD
-    subgraph Client Layer (Next.js :3000)
-        A[Landing Page /]
-        B[Ride Booking & Map /book-ride]
-        C[Customer Dashboard /dashboard]
-        D[Driver Portal /driver]
-        M[Leaflet + OpenStreetMap & OSRM]
-        R[Razorpay Checkout Modal]
+
+flowchart TD
+    subgraph Client["Client Layer - Next.js"]
+        UI["SwiftRide Frontend"]
+        MAP["Leaflet Map - OpenStreetMap"]
     end
 
-    subgraph Backend Service Layer (Express :5000)
-        E[Express API Gateway]
-        F[Auth Middleware & JWT Verifier]
-        G[Ride Controller & State Machine]
-        H[Pricing Service]
-        I[Payment Controller]
-        J[Customer Controller]
-        K[Driver Controller]
-        L[Socket.io Real-Time Gateway]
+    subgraph Server["Backend Layer - Node.js"]
+        API["Express REST API"]
+        AUTH["JWT Authentication"]
+        RIDE["Ride Management"]
+        PAY["Razorpay Test Payments"]
     end
 
-    subgraph Storage & External Services
-        N[(Primary: Local JSON Files)]
-        O[(Optional: Supabase PostgreSQL)]
-        P[OSRM Public Routing API]
-        Q[Razorpay Test Gateway]
+    subgraph Data["Data Layer"]
+        DB[("Supabase PostgreSQL")]
+        JSON["JSON File Fallback"]
     end
 
-    B -->|User Inputs| M
-    M -.->|GeoJSON Route| P
-    B -->|REST & WebSockets| E
-    C -->|REST & WebSockets| E
-    D -->|REST & WebSockets| E
-    B -->|Open Checkout| R
-    R -.->|Payment Signature| E
-
-    E --> F
-    E --> G
-    E --> H
-    E --> I
-    E --> J
-    E --> K
-    E --> L
-
-    G --> N
-    G -.->|If configured| O
-    I --> Q
+    UI --> API
+    MAP --> UI
+    API --> AUTH
+    API --> RIDE
+    API --> PAY
+    RIDE --> DB
+    RIDE --> JSON
 ```
 
 ### Ride Lifecycle & State Machine Workflow
