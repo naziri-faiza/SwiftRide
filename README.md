@@ -113,7 +113,9 @@ SwiftRide incorporates design principles established by modern mobility platform
 ## 5. System Architecture and Workflow
 
 ### Architecture Diagram
+### Architecture Diagram
 
+```mermaid
 flowchart TD
     subgraph Client["Client Layer - Next.js"]
         UI["SwiftRide Frontend"]
@@ -139,19 +141,25 @@ flowchart TD
     API --> PAY
     RIDE --> DB
     RIDE --> JSON
-```
+``````
 
 ### Ride Lifecycle & State Machine Workflow
+### Ride Lifecycle & State Machine Workflow
+
 ```mermaid
 stateDiagram-v2
-    [*] --> REQUESTED: Customer books ride (Cash / Razorpay)
-    REQUESTED --> DRIVER_ASSIGNED: Driver accepts request in Driver Portal
-    DRIVER_ASSIGNED --> DRIVER_ARRIVING: Driver reaches pickup vicinity
-    DRIVER_ARRIVING --> IN_PROGRESS: Driver starts trip (Passenger boarded)
-    IN_PROGRESS --> COMPLETED: Driver ends trip at drop-off
-    REQUESTED --> CANCELLED: Rider or Driver cancels booking
-    DRIVER_ASSIGNED --> CANCELLED: Trip cancelled before pickup
-    COMPLETED --> REVIEWED: Customer submits 1-5 Star Review
+    [*] --> REQUESTED: Customer books ride
+
+    REQUESTED --> DRIVER_ASSIGNED: Driver accepts request
+    DRIVER_ASSIGNED --> DRIVER_ARRIVING: Driver approaches pickup
+    DRIVER_ARRIVING --> IN_PROGRESS: Driver starts trip
+    IN_PROGRESS --> COMPLETED: Driver ends trip
+
+    REQUESTED --> CANCELLED: Ride cancelled
+    DRIVER_ASSIGNED --> CANCELLED: Ride cancelled before pickup
+
+    COMPLETED --> REVIEWED: Customer submits 1-5 star review
+
     COMPLETED --> [*]
     CANCELLED --> [*]
     REVIEWED --> [*]
